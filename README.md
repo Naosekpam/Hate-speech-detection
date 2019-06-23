@@ -17,7 +17,7 @@ It performs the task of keeping only useful information from the content. The un
 *	Check for prompt words like when, what, how, who , whom, why, etc.
 *	Check for the 20 most common words.
 ## 3) Train a Machine Learning model for classification
-In this step, the data is divided into 80% training set and 20% test set to evaluate the model created on unseen instances. Logistic Regression from sklearn  is used for classification since the task consists of Binary Classification (Hate speech (1) or not(0)).
+In this step, the data is divided into 80% training set and 20% test set to evaluate the model created on unseen instances. Logistic Regression from 'sklearn'  is used for classification since the task consists of Binary Classification (Hate speech (1) or not(0)).
 ## 4) Evaluate the ML model
 The last step is the evaluation of the model on unseen data to check the accuracy.
 >python HateSpeechDetection.py
